@@ -54,3 +54,7 @@ body.page-agreement{background-color:#090909;background-image:linear-gradient(45
 /* Tighter portrait crop on the About page */
 .about-photo{object-position:center 56%;transform:scale(1.22);transform-origin:center 58%;}
 .about-photo{object-position:center 72%;}
+@media(max-width:650px){
+  .nav.open{background:#080808!important;color:#fff!important;z-index:21;border-bottom:1px solid #ffffff30;}
+  .nav.open a,.nav.open a:hover,.nav.open a[aria-current=page]{color:#fff!important;border-color:#ffffff24!important;}
+}
